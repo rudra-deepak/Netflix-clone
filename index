@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="curve-linee"></div>
+  
+    <div class="box"></div>
+    <nav>
+        <img src="../netflix-clone/Netflix1.png" alt="Netflix Logo" class="logo">
+        <div>
+    <button class="lang">English</button>
+   
+        <button class="sign-in">Sign In</button></div>
+        </nav>
 
+    <div class="content">
+        <h1 class="title">Unlimited movies,<br> shows, and more</h1>
+        <span class="cost">Starts at ₹149. Cancel at any time.</span>
+        <span class="watch">Ready to watch? Enter your email to create or restart your membership.</span>
+      
+   
+
+<span class="info">
+  
+            <input type="text" class="login" placeholder="Email address">
+           <button class="get-started">Get Started     ‎ ‎  > </button>
+</span>
+
+ </div> 
+ 
+ </header>
+ 
+<div class="curve-line"></div>
+  <div class="curve-lineee"></div>
+<div class="curve-lineeee"></div>
+<div class="trend"> Trending Now </div> 
+<div class="container">
+
+    <div class="slider">
+                <div class="card">
+                <img src="../netflix-clone/m1.webp" alt="img 1">
+                <div class="number">1</div>
+                </div>
+                <div class="card">
+                 <img src="../netflix-clone/m2.webp" alt="img 2">
+                <div class="number">2</div>
+                </div>
+                <div class="card">
+                <img src="../netflix-clone/m3.webp" alt="img 3">
+                <div class="number">3</div>
+                </div>
+                <div class="card">
+                 <img src="../netflix-clone/m4.webp" alt="img 4">
+                <div class="number">4</div>
+             </div>
+                <div class="card">
+              <img src="../netflix-clone/m5.webp" alt="img 5">
+              <div class="number">5</div>
+             </div>
+             <div class="card">
+              <img src="../netflix-clone/m6.webp" alt="img 6">
+               <div class="number">6</div>
+               </div>
+                <div class="card">
+               <img src="../netflix-clone/m7.webp" alt="img 7">
+              <div class="number">7</div>
+               </div>
+                     <div class="card">
+                      <img src="../netflix-clone/m8.webp" alt="img 8">
+                   <div class="number">8</div>
+                 </div>
+                 <div class="card">
+                          <img src="../netflix-clone/m9.webp" alt="img 9">
+                   <div class="number">9</div>
+                     </div>
+                      <div class="card">
+                        <img src="../netflix-clone/m10.webp" alt="img 10">
+                      <div class="number">10</div>
+                        </div>
+
+</div></div>
+
+    <div class="container2">
+        <div class="reason">More Reasons to Join</div>
+    <div class="section2">
+            <div class="card2">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <img id="z1" src="../netflix-clone/Z1.png" alt="TV Image">
+            </div>
+            <div class="card2">
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favorites easily and always have something to watch.</p>
+            <img id="z2" src="../netflix-clone/Z2.png" alt="Download Image">
+             </div>
+            <div class="card2">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+            <img id="z3" src="../netflix-clone/Z3.png" alt="Device Image">
+            </div>
+            <div class="card2">
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            <img id="z4" src="../netflix-clone/Z4.png" alt="Kids Image">
+    </div>
+ </div></div>
+
+    <div class="container3">
+        <div class="quection">Frequently Asked Questions</div>
+        <div class="quectionbox"><br><br>
+            <span>
+                what is netflix?
+                <img src="../netflix-clone/plus.png" >
+            </span>
+        </div>
+    </div>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
