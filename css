@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ..............................problem rechecck by ai............................................... */
+
+.curve-lineee,
+.curve-lineeee {
+  pointer-events: none;
+}
 /* .------------------------------------------------------------------------------------------------------------------------ */
 .curve-linee {
-  position: fixed;
-  margin-top: 54.5px;
+  position: absolute;
+  margin-top: 54.7px;
   left: 0;
   width: 100%;
   height: 120px;
@@ -16,11 +23,11 @@
   transform: translateY(-45%);
 
   /* Gradient border */
-  border-image: linear-gradient(90deg, #ff003c, #ff4d6d, #ff8a00) 1;
+  border-image: linear-gradient(90deg, #ff003c, #ff0a37, #cd0202) 1;
 
   /* Glow */
-  filter: drop-shadow(0 0 10px #ff0040)
-          drop-shadow(0 0 20px #ff4d6d);
+  filter: drop-shadow(0 0 20px #ff0000)
+          drop-shadow(0 0 20px #ff123e);
 }
 /* =========================================================================================================================================== */
 /* .------------------------------------------------------------------------------------------------------------------------ */
@@ -70,7 +77,7 @@ body{
 }
 
 header{
-    background-image: url(../netflix-clone/netflixbg.jpg);
+    background-image: url(netflixbg.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -373,7 +380,7 @@ overflow: hidden;
     border-radius: 8px;
     margin-bottom: 10px;
 } #z1{ top: 50px;} #z2{ top: 45px;} #z3{ top: 51px;} #z4{ top: 28px;} 
-
+/* ********************************************************************************************************************************  */
 .quection{
     font-size: 30px;
     font-weight: bolder;
@@ -382,7 +389,7 @@ overflow: hidden;
    margin-top: 0px;
     color: white;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-     border: 1px solid red;
+     /* border: 1px solid red; */
 }
 
 .container3{
@@ -390,7 +397,123 @@ overflow: hidden;
 margin-right: 12vw;
 margin-top: -120px;
 width: 70vw;
-height: 600px;
-overflow: hidden;
-border: 1px solid red
+height: 700px;
+
+/* border: 1px solid red */
 }
+
+.faq{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    /* text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    margin-top: -30px;}
+
+.questionbox{
+    margin-top: 20px;
+    background-color: #302f30;
+   padding: 20px;
+    transition: 0.1s;
+       position: relative;
+    
+    
+}
+.questionbox:hover{
+    background-color: #454545;
+    /* transition: background-color 0.3s ease; */
+}
+
+
+
+
+
+
+
+
+.container4 span{
+    margin-left: 15vw;
+margin-right: 12vw;
+position: relative;
+display: flex;
+padding-left: 250px;
+font-size: 20px;
+}
+
+
+
+.footer-email{
+    background-color: rgba(0, 0, 0, 0.7); /* slight dark bg like Netflix */
+    border: 1px solid rgb(141, 141, 141);
+    margin-left: 320px; /* consistent padding */
+    
+    width: 580px; /* fixed width for clean look */
+    height: 60px; /* consistent height */
+    margin-top: 10px;
+    padding: 0 15px; /* horizontal padding only */
+    
+    font-size: 16px; /* reduce from 22 (too big) */
+    color: white; /* typed text color */
+    
+    border-radius: 4px;
+    outline: none; /* remove blue border on click */
+}
+#footer-start{
+    margin-left: 910px;
+    margin-top: -61px;
+    display: flex;
+}
+
+footer{
+    background-color: #000000;
+    color: rgb(198, 196, 196);
+    padding-left: 240px;
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+footer a{
+    color: rgb(198, 196, 196);
+    text-decoration: none;
+}
+
+.foot-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}    
+.foot-col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+#lang{
+    margin-top: 75px;
+    margin-left: -10px;
+}
+
+.by-rd{
+    margin-top: 50px;
+    font-size: 19px;
+    color: rgb(132, 132, 132);
+}
+
+.copyright{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(132, 132, 132);
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(132, 132, 132);
+    margin-right: 50px;
+}
+
