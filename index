@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
+    <title>RudraFlix - UI Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header >
     <div class="curve-linee"></div>
   
     <div class="box"></div>
     <nav>
-        <img src="../netflix-clone/Netflix1.png" alt="Netflix Logo" class="logo">
+        <img src="Netflix1.png" alt="Netflix Logo" class="logo">
         <div>
     <button class="lang">English</button>
    
@@ -44,88 +44,167 @@
 
     <div class="slider">
                 <div class="card">
-                <img src="../netflix-clone/m1.webp" alt="img 1">
+                <img src="m1.webp" alt="img 1">
                 <div class="number">1</div>
                 </div>
                 <div class="card">
-                 <img src="../netflix-clone/m2.webp" alt="img 2">
+                 <img src="m2.webp" alt="img 2">
                 <div class="number">2</div>
                 </div>
                 <div class="card">
-                <img src="../netflix-clone/m3.webp" alt="img 3">
+                <img src="m3.webp" alt="img 3">
                 <div class="number">3</div>
                 </div>
                 <div class="card">
-                 <img src="../netflix-clone/m4.webp" alt="img 4">
+                 <img src="m4.webp" alt="img 4">
                 <div class="number">4</div>
              </div>
                 <div class="card">
-              <img src="../netflix-clone/m5.webp" alt="img 5">
+              <img src="m5.webp" alt="img 5">
               <div class="number">5</div>
              </div>
              <div class="card">
-              <img src="../netflix-clone/m6.webp" alt="img 6">
+              <img src="m6.webp" alt="img 6">
                <div class="number">6</div>
                </div>
                 <div class="card">
-               <img src="../netflix-clone/m7.webp" alt="img 7">
+               <img src="m7.webp" alt="img 7">
               <div class="number">7</div>
                </div>
                      <div class="card">
-                      <img src="../netflix-clone/m8.webp" alt="img 8">
+                      <img src="m8.webp" alt="img 8">
                    <div class="number">8</div>
                  </div>
                  <div class="card">
-                          <img src="../netflix-clone/m9.webp" alt="img 9">
+                          <img src="m9.webp" alt="img 9">
                    <div class="number">9</div>
                      </div>
                       <div class="card">
-                        <img src="../netflix-clone/m10.webp" alt="img 10">
+                        <img src="m10.webp" alt="img 10">
                       <div class="number">10</div>
                         </div>
 
-</div></div>
+    </div></div>
 
-    <div class="container2">
+<div class="container2">
         <div class="reason">More Reasons to Join</div>
     <div class="section2">
             <div class="card2">
             <h3>Enjoy on your TV</h3>
             <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-            <img id="z1" src="../netflix-clone/Z1.png" alt="TV Image">
+            <img id="z1" src="Z1.png" alt="TV Image">
             </div>
             <div class="card2">
             <h3>Download your shows to watch offline</h3>
             <p>Save your favorites easily and always have something to watch.</p>
-            <img id="z2" src="../netflix-clone/Z2.png" alt="Download Image">
+            <img id="z2" src="Z2.png" alt="Download Image">
              </div>
             <div class="card2">
             <h3>Watch everywhere</h3>
             <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
-            <img id="z3" src="../netflix-clone/Z3.png" alt="Device Image">
+            <img id="z3" src="Z3.png" alt="Device Image">
             </div>
             <div class="card2">
             <h3>Create profiles for kids</h3>
             <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
-            <img id="z4" src="../netflix-clone/Z4.png" alt="Kids Image">
+            <img id="z4" src="Z4.png" alt="Kids Image">
     </div>
- </div></div>
+    </div></div>
 
-    <div class="container3">
+<div class="container3">
         <div class="quection">Frequently Asked Questions</div>
-        <div class="quectionbox"><br><br>
-            <span>
-                what is netflix?
-                <img src="../netflix-clone/plus.png" >
+        <div class="questionbox"><br><br>
+            <span class="faq">
+                What is Netflix?
+                <img src="plus.png" width="25px" height="25px">
+            </span>
+        </div>
+         <div class="questionbox"><br><br>
+            <span class="faq">
+                How much does Netflix cost?
+                <img src="plus.png" width="25px" height="25px">
+            </span>
+        </div>
+         <div class="questionbox"><br><br>
+            <span class="faq">
+               Where can I watch?
+                <img src="plus.png" width="25px" height="25px">
+            </span>
+        </div>
+         <div class="questionbox"><br><br>
+            <span class="faq">
+                  How do I cancel?
+                <img src="plus.png" width="25px" height="25px">
+            </span>
+        </div>
+         <div class="questionbox"><br><br>
+            <span class="faq">
+              What can I watch on Netflix?
+                <img src="plus.png" width="25px" height="25px">
+            </span>
+        </div>
+         <div class="questionbox"><br><br>
+            <span class="faq">
+              Is Netflix good for kids?
+                <img src="plus.png" width="25px" height="25px">
             </span>
         </div>
     </div>
 
+<div class="container4">
+<span class="contact">Ready to watch? Enter your email to create or restart your membership.</span>
+  
+            <input type="text" class="footer-email" placeholder="Email address">
+           <button class="get-started" id="footer-start">Get Started     ‎ ‎  > </button>
+
+</div>
+<footer >
+    <div class="call">Questions? Call <a href="https://portfolio-rudradeepak.netlify.app">000-800-919-1743</a></div>
+ <div class="foot-grid">
+    <div class="foot-col">
+        <a href="https://portfolio-rudradeepak.netlify.app" target="_blank">FAQ</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Investor Relations</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Privacy</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Speed Test</a>
+    </div>
+    <div class="foot-col">
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Help Center</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Jobs</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Cookie Preferences</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Legal Notices</a>
+    </div>
+    <div class="foot-col">
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Account</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Ways to Watch</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Corporate Information</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Only on Netflix</a>
+    </div>
+    <div class="foot-col">
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Media Center</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Terms of Use</a>
+        <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">Contact Us</a>
+    </div>
+ </div>
+<button class="lang"  id="lang">English</button>
+
+  <a href="https://portfolio-rudradeepak.netlify.app/" target="_blank">
+<div class="by-rd">Netflix Rudra</div>
+<div class="copyright">© 2026 Netflix- Rudra, Inc.</div>
+<div class="description">This is a personal project for educational purposes. Not affiliated with Netflix.<br><br>
+    This project is a personal web development clone inspired by the design and 
+    user interface of Netflix. It is created solely for educational and non-commercial purposes to
+     demonstrate front-end development skills using HTML, CSS, and related technologies.<br><br>
+All trademarks, logos, and brand names such as Netflix are the property of their respective owners. 
+This project does not claim any affiliation, endorsement, or partnership with Netflix or its parent company.
+Unauthorized use, reproduction, or distribution of this project's original code or design elements created
+ by Rudra Deepak is strictly prohibited.</div>
+
+
+</footer></a>
 
 
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
 
 </body>
 </html>
