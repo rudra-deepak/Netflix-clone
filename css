@@ -157,17 +157,20 @@ border-radius: 4px;}
 }
 /* =========================================================================================================================================== */
 .content{
-    position: relative;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
     
+    width: 90%;
+    max-width: 900px;
+
+    text-align: center;
+    color: white;
 }
 
 .content .title{
@@ -326,7 +329,7 @@ color: rgb(0, 0, 0);
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
     display: flex;
-    top: 1200px;
+    top: 1120px;
     bottom: 0px;
     left: 200px;
     color: white;
@@ -373,13 +376,13 @@ overflow: hidden;
 }
 .card2 img{
     position: relative; 
-    left: 150px;
+    left: 120px;
     width: 75px;
     height: 75px; 
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
-} #z1{ top: 50px;} #z2{ top: 45px;} #z3{ top: 51px;} #z4{ top: 28px;} 
+} #z1{ top: 50px;} #z2{ top: 32px;} #z3{ top: 55px;} #z4{ top: 18px;} 
 /* ********************************************************************************************************************************  */
 .quection{
     font-size: 30px;
@@ -515,5 +518,437 @@ footer a{
     font-size: 14px;
     color: rgb(132, 132, 132);
     margin-right: 50px;
+}
+
+
+
+
+
+
+
+/* -============================================================================================================ */
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media screen and (max-width: 768px) {
+
+  /* Navbar */
+  nav{
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    height: 45px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .lang,
+  .sign-in{
+    margin-top: 0;
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  /* Hero Section */
+  header{
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .content{
+    width: 95%;
+    padding: 20px;
+    top: 50%;
+  }
+
+  .content .title{
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .content .cost{
+    font-size: 1rem;
+  }
+
+  .content .watch{
+    font-size: 0.9rem;
+  }
+
+  .info{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .login{
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .get-started{
+    width: 100%;
+    max-width: 400px;
+    font-size: 18px;
+  }
+
+  /* Trending */
+  .trend{
+    margin: 30px 20px;
+    font-size: 24px;
+  }
+
+  .container{
+    margin: 0 10px 50px;
+  }
+
+  .slider{
+    gap: 20px;
+  }
+
+  .card{
+    width: 140px;
+  }
+
+  .number{
+    font-size: 60px;
+  }
+
+  /* More Reasons */
+  .reason{
+    position: static;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .container2{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .section2{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .card2{
+    width: 100%;
+  }
+
+  .card2 img{
+    position: static;
+    margin-top: 20px;
+    align-self: flex-end;
+  }
+
+  /* FAQ */
+  .container3{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    height: auto;
+  }
+
+  .quection{
+    font-size: 24px;
+  }
+
+  .faq{
+    font-size: 18px;
+  }
+
+  /* Footer Email */
+  .container4{
+    padding: 20px;
+  }
+
+  .container4 span{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer-email{
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #footer-start{
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+
+  /* Footer */
+  footer{
+    padding: 40px 20px;
+  }
+
+  .foot-grid{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Hide side curves */
+  .curve-lineee,
+  .curve-lineeee{
+    display: none;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px){
+
+  .content .title{
+    font-size: 1.7rem;
+  }
+
+  .card{
+    width: 120px;
+  }
+
+  .number{
+    font-size: 50px;
+  }
+
+  .faq{
+    font-size: 16px;
+  }
+
+  .get-started{
+    font-size: 16px;
+  }
+}
+
+
+.curve-lineeee{
+    width: 100%;
+}
+
+.footer-email{
+    width: 100%;
+    max-width: 580px;
+}
+
+.container,
+.trend{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.logo{
+    height: 68px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+nav{
+    padding-right: 40px;
+}
+
+.trend{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container2{
+    width: 90%;
+    margin: auto;
+}
+
+.container3{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-email{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#footer-start{
+    margin-left: 0;
+    display: inline-block;
+}
+
+footer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+@media (max-width: 768px){
+
+    nav{
+        padding:15px;
+    }
+
+    .logo{
+        height:45px;
+        padding:0;
+    }
+
+    .content .title{
+        font-size:2rem;
+    }
+
+    .content .cost{
+        font-size:1rem;
+    }
+
+    .content .watch{
+        font-size:0.9rem;
+    }
+
+    .info{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .login,
+    .get-started{
+        width:100%;
+        max-width:400px;
+    }
+
+    .trend{
+        margin:20px;
+        font-size:24px;
+    }
+
+    .container{
+        margin:20px;
+    }
+
+    .card{
+        width:140px;
+    }
+
+    .number{
+        font-size:60px;
+    }
+
+    .reason{
+        position:static;
+        margin:20px;
+    }
+
+    .section2{
+        flex-direction:column;
+        height:auto;
+        width:100%;
+    }
+
+    .card2 img{
+        position:static;
+        margin-top:20px;
+        align-self:flex-end;
+    }
+
+    .container3{
+        width:100%;
+        padding:20px;
+        height:auto;
+    }
+
+    .faq{
+        font-size:18px;
+    }
+
+    .container4{
+        padding:20px;
+    }
+
+    .container4 span{
+        padding:0;
+        margin:0;
+        text-align:center;
+    }
+
+    .footer-email{
+        width:100%;
+        margin:15px 0;
+    }
+
+    #footer-start{
+        width:100%;
+        margin:0;
+    }
+
+    .foot-grid{
+        grid-template-columns:1fr;
+    }
+
+    footer{
+        padding:40px 20px;
+    }
+
+    .curve-lineee,
+    .curve-lineeee{
+        display:none;
+    }
+}
+
+@media (max-width:480px){
+
+    .content .title{
+        font-size:1.6rem;
+    }
+
+    .card{
+        width:120px;
+    }
+
+    .number{
+        font-size:50px;
+    }
+
+    .faq{
+        font-size:16px;
+    }
+}
+
+@media (max-width:768px){
+
+    .content{
+        top: 52%;
+        width: 95%;
+    }
+
+    .content .title{
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .content .cost{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .content .watch{
+        margin-bottom: 15px;
+    }
+
+    .info{
+        width: 100%;
+    }
+}
+header{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
